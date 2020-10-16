@@ -23,4 +23,4 @@
 ## 目录列表
 |目录名|说明|
 |:-:|:--|
-|wxy-noticeBar|对uniapp插件市场通告进行了改进，自适应父级，自动识别单位、优化其它代码，具体见里面说明。还要就是抛弃uViewUI的noticeBar，它在适配，uni的noticeBar好点，但在自适应和自识别上还不够，再者就是它功能没wxy-noticeBar强大，尤其是我增加它部分功能后。|
+|wxy-noticeBar|对uniapp插件市场通告进行了改进，自适应父级，自动识别单位、优化其它代码，具体见里面说明。uView和uni的noticeBar共同就是自适应和自识别都存在不友好。|
