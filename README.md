@@ -18,7 +18,15 @@
 在PHP中文十三期培训中学习了父级影响子元素的两类单位:
 >- **em与rem** 通过em特殊的特性(font-size继承父级，本身margin、padding等不可继承属性则依据本身)来定义内部组件的margin、padding、position等。
 >- **百分比**  百分比通常定义width和height，再一个如背景图backgroud-size是依据块的大小来定义的，想实现 **宽高成比例自适应** ，可定义如width:60%;padding-bottom:10%来保证6:1，因为width、padding和margin都是依据父级宽度。具体可查MDN。
->- 单位的自适应。如 **rpx、px、数值、auto和百分比自动适配** ，这里可以参考u-popup.vue中方法getUnitValue
+>- 单位的自适应。如 **rpx、px、数值、auto和百分比自动适配** ，这里可以参考u-popup.vue中方法getUnitValue，通过正则表达式可以识别
+
+|类型|举例|自动识别说明|
+|:-:|:-:|:-:|
+|尺寸|width、height|auto、百分比、px、rpx和数值，默认单位为rpx，可定义其它|
+|字体|fontt等|px、rpx、em、rem和数值，默认单位为rpx，可定义其它|
+|位置|position、margin、padding等|百分比、px、rpx、em和数值，默认单位为rpx，可定义其它|
+|颜色|color等|HexColor、RgbColor和关键字，默认是HexColor|
+
 
 ## 目录列表
 |目录名|说明|
