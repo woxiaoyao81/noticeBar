@@ -23,7 +23,7 @@
 |类型|举例|自动识别说明|
 |:-:|:-:|:-:|
 |尺寸|width、height|auto、百分比、px、rpx和数值，默认单位为rpx，可定义其它|
-|字体|fontt等|px、rpx、em、rem和数值，默认单位为rpx，可定义其它|
+|字体|font等|px、rpx、em、rem和数值，默认单位为rpx，可定义其它|
 |位置|position、margin、padding等|百分比、px、rpx、em和数值，默认单位为rpx，可定义其它|
 |颜色|color等|HexColor、RgbColor和关键字，默认是HexColor|
 
